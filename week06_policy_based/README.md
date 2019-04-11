@@ -1,5 +1,5 @@
 ## Materials
-* [Slides](https://docviewer.yandex.ru/?url=ya-disk-public%3A%2F%2FG3IXcG62RwNUGSSos%2BuGhtgXNfsBjP9RxUtUfgCffIk%3D%3A%2Flecture6.pdf&name=lecture6.pdf&c=58c876c4863a)
+* [Slides](https://yadi.sk/i/keSzKSgA2oYuwQ)
 * Video lecture by D. Silver - [video](https://www.youtube.com/watch?v=KHZVXao4qXs)
 * Our [lecture](https://yadi.sk/i/yPIPkO_f3TPsNK),  [seminar(pytorch)](https://yadi.sk/i/flW8ezGk3TPsQ5), [seminar(theano)](https://yadi.sk/i/8f9NX_E73GKBkT)
 * Alternative lecture by J. Schulman part 1 - [video](https://www.youtube.com/watch?v=BB-BhTn6DCM)
@@ -18,4 +18,6 @@
 * Adversarial review of policy gradient - [blog](http://www.argmin.net/2018/02/20/reinforce/)
 
 
-Run seminar notebook in colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandexdataschool/Practical_RL/blob/spring19/week06_policy_based/reinforce_pytorch.ipynb)
+Run seminar notebook in colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandexdataschool/Practical_RL/blob/spring19/week06_policy_based/reinforce_pytorch.ipynb)
+
+Run optional homework notebook in colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandexdataschool/Practical_RL/blob/spring19/week06_policy_based/a2c-optional.ipynb)

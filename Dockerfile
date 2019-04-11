@@ -5,7 +5,7 @@ RUN pip install --no-cache --upgrade pip && \
 
 RUN apt-get -qq update
 # RUN apt-get install -y gcc-4.9 g++-4.9 libstdc++6 wget unzip
-RUN apt-get install -y gcc g++ libstdc++6 wget unzip git
+RUN apt-get install -y gcc g++ libstdc++6 wget curl unzip git
 RUN apt-get install -y libopenblas-dev liblapack-dev libsdl2-dev libboost-all-dev graphviz
 RUN apt-get install -y cmake zlib1g-dev libjpeg-dev 
 RUN apt-get install -y xvfb libav-tools xorg-dev python-opengl python3-opengl
@@ -14,7 +14,7 @@ RUN ln -s /usr/bin/swig3.0 /usr/bin/swig
 
 RUN pip install --upgrade pip==9.0.3
 RUN pip install --upgrade --ignore-installed setuptools  #fix https://github.com/tensorflow/tensorflow/issues/622
-RUN pip install --upgrade sklearn tqdm nltk editdistance joblib graphviz pandas
+RUN pip install --upgrade sklearn tqdm nltk editdistance joblib graphviz pandas matplotlib
 
 # install all gym stuff except mujoco - it fails at "import importlib.util" (no module named util)
 RUN pip install --upgrade gym
